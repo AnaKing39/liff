@@ -12,13 +12,10 @@
 
       await liff.init({ liffId: "1657660821-LEr2VXXP" })
       await liff.shareTargetPicker([
-        {
-          type: "flex",
-          altText: "Flex Message from Sgare Target Picker",
-          contents: {
-            "type": "flex",
-            "altText": "Flex Message",
-            "contents": {
+        {         
+            type: "flex",
+            altText: "Flex Message",
+            contents: {
               "hero": {
                 "url": "https://www.zaibet.net/wp-content/uploads/2022/11/ฟรีไลน์-1536x1413.png",
                 "aspectMode": "cover",
@@ -86,8 +83,7 @@
               },
               "type": "bubble",
               "direction": "ltr"
-            }
-          }
+            }          
         }
       ])
       liff.closeWindow()
